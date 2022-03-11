@@ -1,0 +1,69 @@
+/* 初始化样式 */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 5px;
+    color: #333;
+    background: #f2f2f2;
+}
+
+header>span {
+    padding: 10px 0;
+}
+
+header>span:hover {
+    background: #c1c1c1;
+    color: #fff;
+}
+
+header>span:last-child {
+    border: none;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.aside {
+    background: #f2f2f2;
+    border-right: 5px solid #fff;
+}
+
+.aside>div {
+    margin-bottom: 3px;
+    padding: 10px 5px;
+}
+
+.aside>div:hover {
+    background: #c1c1c1;
+    color: #fff;
+}
+
+.aside>div:last-child {
+    margin: 0
+}
+
+main {
+    background-color: #f2f2f2;
+    min-height: 300px;
+}
